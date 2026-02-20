@@ -19,4 +19,11 @@ export default defineConfig({
 
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
+
+  // Vite build configuration for production
+  build: {
+    outDir: 'dist',
+    sourcemap: false,
+    minify: 'terser',
+  },
 })
