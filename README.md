@@ -399,4 +399,5 @@ This original project is available at https://www.figma.com/design/LteEf2P9m7or7
 
 Run `npm i` to install the dependencies.
 
-Run `npm run dev` to start the development server.
+Run `npm run dev` to start the development server.#   C e l e s t i k _ p r o j e c t  
+ 
