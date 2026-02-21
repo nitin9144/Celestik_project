@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-serif: 'Georgia', serif;
+    --font-mystical: 'Palatino', serif;
+    --font-elegant: 'Garamond', serif;
+    --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-serif-alt: 'Book Antiqua', serif;
+  }
+
+  body {
+    @apply bg-[#0f1433] text-white;
+  }
+
+  @supports (font-variation-settings: normal) {
+    :root {
+      --font-serif: system-ui, sans-serif;
+    }
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(0.5px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+}
