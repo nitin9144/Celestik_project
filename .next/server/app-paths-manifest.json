@@ -1,7 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/(sites)/home/page": "app/(sites)/home/page.js",
-  "/(sites)/astrology/page": "app/(sites)/astrology/page.js",
-  "/(sites)/palmistry/page": "app/(sites)/palmistry/page.js",
-  "/(sites)/contact/page": "app/(sites)/contact/page.js"
-}
